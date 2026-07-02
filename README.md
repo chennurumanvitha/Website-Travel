@@ -23,7 +23,7 @@ html — Booking/Enquiry form with JavaScript validation
 
 #Features
 
-.Modern travel-themed design
+Modern travel-themed design
 
 
 Fully responsive for mobile, tablet, and desktop
