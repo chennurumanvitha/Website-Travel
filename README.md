@@ -1,7 +1,6 @@
 Explore India Travels — Static HTML Website
 
 
-
 Pure HTML / CSS / JavaScript Website
 
 Pages
