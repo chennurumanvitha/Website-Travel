@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WanderNest Travels — Explore the World with Us</title>
+
+<meta name="description" content="WanderNest Travels offers exciting domestic and international tour packages, adventure trips, honeymoon vacations, and customized travel experiences.">
+
+<meta name="keywords" content="Travel, Tour Packages, Vacation, Holiday, WanderNest Travels, Tourism">
+
+<link rel="canonical" href="https://wandernest-travels.netlify.app/">
+
+<meta property="og:title" content="WanderNest Travels — Your Journey Begins Here">
+<meta property="og:description" content="Discover amazing destinations with affordable travel packages.">
+<meta property="og:image" content="images/hero-travel.jpg">
+<meta property="og:type" content="website">
+
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" type="image/svg+xml"
+href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='28'>✈️</text></svg>">
+
+<link rel="stylesheet" href="styles.css">
+
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"TravelAgency",
+ "name":"WanderNest Travels",
+ "url":"https://wandernest-travels.netlify.app/",
+ "logo":"images/logo.png",
+ "description":"Premium travel agency offering domestic and international tour packages."
+}
+</script>
+
+</head>
+
+<body>
+
+<header class="nav">
+<div class="container nav-inner">
+
+<a href="index.html" class="logo">
+Wander<span>Nest</span>
+</a>
+
+<button class="menu-btn" aria-label="Menu">☰</button>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="destinations.html">Destinations</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Book Now</a></li>
+</ul>
+
+</div>
+</header>
+
+<main>
+
+<!-- Hero Section -->
+
+<section class="hero">
+
+<div class="container hero-grid">
+
+<div>
+
+<span class="tag">Summer Packages 2026</span>
+
+<h1>
+Explore the <span class="gradient-text">World</span> with WanderNest Travels
+</h1>
+
+<p>
+Experience unforgettable journeys with customized tour packages,
+luxury accommodations, adventure activities, and expert travel guides.
+Your dream vacation starts here.
+</p>
+
+<div class="hero-actions">
+
+<a href="destinations.html" class="btn btn-primary">
+Explore Destinations
+</a>
+
+<a href="contact.html" class="btn btn-outline">
+Book Your Trip
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-img">
+<img src="images/hero-travel.jpg"
+alt="Beautiful tropical beach destination"
+loading="eager">
+</div>
+
+</div>
+
+</section>
+
+<!-- Statistics -->
+
+<section>
+
+<div class="container">
+
+<div class="stats">
+
+<div class="stat">
+<strong>50+</strong><br>
+Countries
+</div>
+
+<div class="stat">
+<strong>10K+</strong><br>
+Happy Travelers
+</div>
+
+<div class="stat">
+<strong>500+</strong><br>
+Tour Packages
+</div>
+
+<div class="stat">
+<strong>24/7</strong><br>
+Travel Support
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Featured Destinations -->
+
+<section>
+
+<div class="container">
+
+<div class="section-head">
+
+<h2>Popular Destinations</h2>
+
+<p>
+Discover breathtaking places carefully selected for unforgettable travel experiences.
+</p>
+
+</div>
+
+<div class="cards">
+
+<article class="card">
+
+<img src="images/paris.jpg"
+alt="Eiffel Tower in Paris">
+
+<div class="card-body">
+
+<span class="tag">Europe</span>
+
+<h3>Paris</h3>
+
+<p>
+Romantic city tours, museums, shopping, and iconic landmarks.
+</p>
+
+</div>
+
+</article>
+
+<article class="card">
+
+<img src="images/bali.jpg"
+alt="Beautiful Bali beach">
+
+<div class="card-body">
+
+<span class="tag">Asia</span>
+
+<h3>Bali</h3>
+
+<p>
+Relax on stunning beaches while enjoying luxury resorts and water adventures.
+</p>
+
+</div>
+
+</article>
+
+<article class="card">
+
+<img src="images/swiss.jpg"
+alt="Swiss Alps mountains">
+
+<div class="card-body">
+
+<span class="tag">Adventure</span>
+
+<h3>Swiss Alps</h3>
+
+<p>
+Experience breathtaking mountain views, skiing, hiking, and nature escapes.
+</p>
+
+</div>
+
+</article>
+
+</div>
+
+<p style="text-align:center;margin-top:2rem">
+
+<a href="destinations.html" class="btn btn-outline">
+View All Destinations →
+</a>
+
+</p>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+<div class="container">
+
+<p>
+© 2026 WanderNest Travels. Creating unforgettable journeys around the world.
+</p>
+
+<div class="social">
+
+<a href="#">Facebook</a>
+
+<a href="#">Instagram</a>
+
+<a href="#">YouTube</a>
+
+</div>
+
+</div>
+
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

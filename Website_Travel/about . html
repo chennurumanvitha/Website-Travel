@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>About Us — WanderNest Travels</title>
+
+<meta name="description" content="Learn about WanderNest Travels, our mission, vision, experienced travel experts, and commitment to creating unforgettable travel experiences.">
+
+<link rel="canonical" href="https://wandernest-travels.netlify.app/about.html">
+
+<meta property="og:title" content="About WanderNest Travels">
+<meta property="og:description" content="Creating unforgettable journeys across the globe.">
+<meta property="og:image" content="images/about.jpg">
+
+<link rel="icon" type="image/svg+xml"
+href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='28'>✈️</text></svg>">
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<header class="nav">
+
+<div class="container nav-inner">
+
+<a href="index.html" class="logo">
+Wander<span>Nest</span>
+</a>
+
+<button class="menu-btn" aria-label="Menu">☰</button>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="destinations.html">Destinations</a></li>
+
+<li><a href="gallery.html">Gallery</a></li>
+
+<li><a href="contact.html">Book Now</a></li>
+
+</ul>
+
+</div>
+
+</header>
+
+<main>
+
+<section class="hero">
+
+<div class="container hero-grid">
+
+<div>
+
+<span class="tag">Our Journey</span>
+
+<h1>
+Explore the World with <span class="gradient-text">Confidence</span>
+</h1>
+
+<p>
+
+Founded in 2015, WanderNest Travels has helped thousands of travelers
+discover breathtaking destinations with affordable packages, luxury
+accommodations, and unforgettable adventures.
+
+</p>
+
+</div>
+
+<div class="hero-img">
+
+<img src="images/about.jpg"
+alt="Travelers enjoying a scenic mountain destination">
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<div class="section-head">
+
+<h2>Mission & Vision</h2>
+
+</div>
+
+<div class="cards">
+
+<article class="card">
+
+<div class="card-body">
+
+<span class="tag">Mission</span>
+
+<h3>Making Travel Easy</h3>
+
+<p>
+
+To provide affordable, safe, and memorable travel experiences
+through personalized tour packages and excellent customer service.
+
+</p>
+
+</div>
+
+</article>
+
+<article class="card">
+
+<div class="card-body">
+
+<span class="tag">Vision</span>
+
+<h3>Connecting the World</h3>
+
+<p>
+
+To become one of the most trusted travel companies,
+bringing people closer to cultures, nature, and unforgettable adventures.
+
+</p>
+
+</div>
+
+</article>
+
+<article class="card">
+
+<div class="card-body">
+
+<span class="tag">Values</span>
+
+<h3>Trust • Quality • Comfort</h3>
+
+<p>
+
+We believe in honesty, customer satisfaction,
+quality service, safety, and responsible tourism.
+
+</p>
+
+</div>
+
+</article>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<div class="section-head">
+
+<h2>Our Achievements</h2>
+
+</div>
+
+<div class="stats">
+
+<div class="stat">
+
+<strong>10+</strong>
+
+Years of Experience
+
+</div>
+
+<div class="stat">
+
+<strong>15K+</strong>
+
+Happy Travelers
+
+</div>
+
+<div class="stat">
+
+<strong>60+</strong>
+
+Travel Destinations
+
+</div>
+
+<div class="stat">
+
+<strong>24/7</strong>
+
+Customer Support
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+<div class="container">
+
+<p>
+
+© 2026 WanderNest Travels. Making every journey unforgettable.
+
+</p>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

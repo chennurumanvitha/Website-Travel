@@ -1,0 +1,178 @@
+// WanderNest Travels JavaScript
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    /* ===========================
+       Mobile Menu
+    =========================== */
+
+    const menuBtn = document.querySelector(".menu-btn");
+    const navLinks = document.querySelector(".nav-links");
+
+    if (menuBtn) {
+        menuBtn.addEventListener("click", () => {
+            navLinks.classList.toggle("open");
+        });
+    }
+
+    /* ===========================
+       Active Navigation Link
+    =========================== */
+
+    const currentPage = location.pathname.split("/").pop() || "index.html";
+
+    document.querySelectorAll(".nav-links a").forEach(link => {
+
+        if (link.getAttribute("href") === currentPage) {
+
+            link.classList.add("active");
+
+        }
+
+    });
+
+    /* ===========================
+       Image Slider
+    =========================== */
+
+    const slide = document.getElementById("slide");
+
+    if (slide) {
+
+        const images = [
+
+            "images/paris.jpg",
+
+            "images/bali.jpg",
+
+            "images/switzerland.jpg",
+
+            "images/dubai.jpg",
+
+            "images/maldives.jpg",
+
+            "images/goa.jpg"
+
+        ];
+
+        let index = 0;
+
+        setInterval(() => {
+
+            index++;
+
+            if (index >= images.length) {
+
+                index = 0;
+
+            }
+
+            slide.src = images[index];
+
+        }, 3000);
+
+    }
+
+    /* ===========================
+       FAQ Accordion
+    =========================== */
+
+    const questions = document.querySelectorAll(".faq-question");
+
+    questions.forEach(question => {
+
+        question.addEventListener("click", () => {
+
+            const answer = question.nextElementSibling;
+
+            answer.classList.toggle("show");
+
+        });
+
+    });
+
+    /* ===========================
+       Booking Form Validation
+    =========================== */
+
+    const form = document.getElementById("bookingForm");
+
+    if (form) {
+
+        form.addEventListener("submit", function (e) {
+
+            e.preventDefault();
+
+            const name = document.getElementById("name").value.trim();
+
+            const email = document.getElementById("email").value.trim();
+
+            const phone = document.getElementById("phone").value.trim();
+
+            const destination = document.getElementById("destination").value;
+
+            const travelDate = document.getElementById("travelDate").value;
+
+            const persons = document.getElementById("persons").value;
+
+            if (name.length < 3) {
+
+                alert("Please enter your full name.");
+
+                return;
+
+            }
+
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            if (!emailPattern.test(email)) {
+
+                alert("Please enter a valid email address.");
+
+                return;
+
+            }
+
+            const phonePattern = /^[0-9]{10}$/;
+
+            if (!phonePattern.test(phone)) {
+
+                alert("Enter a valid 10-digit phone number.");
+
+                return;
+
+            }
+
+            if (destination === "") {
+
+                alert("Please select a destination.");
+
+                return;
+
+            }
+
+            if (travelDate === "") {
+
+                alert("Please select a travel date.");
+
+                return;
+
+            }
+
+            if (persons < 1) {
+
+                alert("Number of travelers must be at least 1.");
+
+                return;
+
+            }
+
+            alert("🎉 Your trip has been booked successfully!\n\nOur travel expert will contact you soon.");
+
+            form.reset();
+
+        });
+
+    }
+
+});

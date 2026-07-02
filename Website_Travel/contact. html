@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Book Your Trip | WanderNest Travels</title>
+
+<meta name="description" content="Book your dream vacation with WanderNest Travels.">
+
+<link rel="stylesheet" href="styles.css">
+
+<link rel="icon" type="image/svg+xml"
+href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'
+viewBox='0 0 32 32'><text y='26' font-size='28'>✈️</text></svg>">
+
+</head>
+
+<body>
+
+<header class="nav">
+
+<div class="container nav-inner">
+
+<a href="index.html" class="logo">
+Wander<span>Nest</span>
+</a>
+
+<button class="menu-btn">☰</button>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="destinations.html">Destinations</a></li>
+
+<li><a href="gallery.html">Gallery</a></li>
+
+<li><a href="contact.html">Book Now</a></li>
+
+</ul>
+
+</div>
+
+</header>
+
+<main>
+
+<section class="hero">
+
+<div class="container">
+
+<span class="tag">Travel Booking</span>
+
+<h1>Book Your <span class="gradient-text">Dream Vacation</span></h1>
+
+<p>
+Fill in the form below and our travel experts will contact you shortly.
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<div class="section-head">
+
+<h2>Booking Form</h2>
+
+<p>Complete the details below.</p>
+
+</div>
+
+<form id="bookingForm">
+
+<input
+type="text"
+id="name"
+placeholder="Full Name"
+required>
+
+<input
+type="email"
+id="email"
+placeholder="Email Address"
+required>
+
+<input
+type="tel"
+id="phone"
+placeholder="Phone Number"
+required>
+
+<select id="destination" required>
+
+<option value="">Select Destination</option>
+
+<option>Paris</option>
+
+<option>Bali</option>
+
+<option>Switzerland</option>
+
+<option>Dubai</option>
+
+<option>Maldives</option>
+
+<option>Goa</option>
+
+</select>
+
+<input
+type="date"
+id="travelDate"
+required>
+
+<input
+type="number"
+id="persons"
+placeholder="Number of Travelers"
+required>
+
+<textarea
+id="message"
+rows="5"
+placeholder="Special Requests"></textarea>
+
+<button type="submit" class="btn btn-primary">
+Book Now
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<div class="cards">
+
+<div class="card">
+
+<div class="card-body">
+
+<h3>Office Address</h3>
+
+<p>
+123 Travel Street,<br>
+Hyderabad,<br>
+India
+</p>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="card-body">
+
+<h3>Email</h3>
+
+<p>
+info@wandernest.com
+</p>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="card-body">
+
+<h3>Phone</h3>
+
+<p>
++91 98765 43210
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+<div class="container">
+
+<p>
+© 2026 WanderNest Travels. All Rights Reserved.
+</p>
+
+<div class="social">
+
+<a href="#">Facebook</a>
+
+<a href="#">Instagram</a>
+
+<a href="#">YouTube</a>
+
+</div>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

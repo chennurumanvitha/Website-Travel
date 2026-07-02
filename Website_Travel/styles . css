@@ -1,0 +1,124 @@
+/*WanderNest Travels*/
+
+
+/* Destination Cards */
+.destination-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+/* Gallery Grid */
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:2rem;
+}
+
+.gallery-grid img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:12px;
+    border:1px solid var(--border);
+    transition:.3s;
+}
+
+.gallery-grid img:hover{
+    transform:scale(1.04);
+}
+
+/* Slider */
+.slider{
+    width:100%;
+    height:500px;
+    overflow:hidden;
+    border-radius:15px;
+    border:1px solid var(--border);
+    margin-bottom:3rem;
+}
+
+.slider img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* Booking Form */
+
+form{
+    max-width:700px;
+    margin:auto;
+    background:var(--surface);
+    padding:2rem;
+    border-radius:15px;
+    border:1px solid var(--border);
+}
+
+form input,
+form select,
+form textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+    background:var(--bg);
+    color:var(--text);
+    border:1px solid var(--border);
+    border-radius:10px;
+    font-size:16px;
+}
+
+form textarea{
+    resize:vertical;
+}
+
+form button{
+    width:100%;
+}
+
+/* Contact Cards */
+
+.contact-info{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:3rem;
+}
+
+.contact-info .card{
+    text-align:center;
+    padding:25px;
+}
+
+/* Hero Background */
+
+.hero{
+    background:linear-gradient(rgba(11,15,26,.75),rgba(11,15,26,.75)),
+    url("images/hero.jpg") center/cover;
+}
+
+/* Travel Tag */
+
+.tag{
+    color:#22d3ee;
+    letter-spacing:1px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.gallery-grid{
+grid-template-columns:1fr;
+}
+
+.slider{
+height:280px;
+}
+
+form{
+padding:1.5rem;
+}
+
+}

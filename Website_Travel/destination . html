@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Destinations — WanderNest Travels</title>
+
+<meta name="description" content="Discover amazing domestic and international travel destinations with WanderNest Travels.">
+
+<link rel="stylesheet" href="styles.css">
+
+<link rel="icon" type="image/svg+xml"
+href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='28'>✈️</text></svg>">
+
+</head>
+
+<body>
+
+<header class="nav">
+<div class="container nav-inner">
+
+<a href="index.html" class="logo">
+Wander<span>Nest</span>
+</a>
+
+<button class="menu-btn">☰</button>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="destinations.html">Destinations</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Book Now</a></li>
+</ul>
+
+</div>
+</header>
+
+<main>
+
+<section class="hero">
+
+<div class="container">
+
+<span class="tag">Popular Tours</span>
+
+<h1>Explore Amazing <span class="gradient-text">Destinations</span></h1>
+
+<p>
+Choose from our carefully designed travel packages across the world.
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<div class="section-head">
+
+<h2>Top Travel Packages</h2>
+
+<p>Find your perfect vacation destination.</p>
+
+</div>
+
+<div class="cards">
+
+<article class="card">
+
+<img src="images/paris.jpg" alt="Paris">
+
+<div class="card-body">
+
+<span class="tag">Europe</span>
+
+<h3>Paris, France</h3>
+
+<p>
+Visit the Eiffel Tower, museums, shopping streets and enjoy romantic city tours.
+</p>
+
+</div>
+
+</article>
+
+<article class="card">
+
+<img src="images/bali.jpg" alt="Bali">
+
+<div class="card-body">
+
+<span class="tag">Asia</span>
+
+<h3>Bali, Indonesia</h3>
+
+<p>
+Relax at luxury beach resorts and enjoy tropical adventures.
+</p>
+
+</div>
+
+</article>
+
+<article class="card">
+
+<img src="images/switzerland.jpg" alt="Switzerland">
+
+<div class="card-body">
+
+<span class="tag">Adventure</span>
+
+<h3>Swiss Alps</h3>
+
+<p>
+Experience snow-covered mountains, skiing and breathtaking scenery.
+</p>
+
+</div>
+
+</article>
+
+<article class="card">
+
+<img src="images/dubai.jpg" alt="Dubai">
+
+<div class="card-body">
+
+<span class="tag">Luxury</span>
+
+<h3>Dubai, UAE</h3>
+
+<p>
+Enjoy luxury shopping, desert safari and world-famous attractions.
+</p>
+
+</div>
+
+</article>
+
+<article class="card">
+
+<img src="images/maldives.jpg" alt="Maldives">
+
+<div class="card-body">
+
+<span class="tag">Honeymoon</span>
+
+<h3>Maldives</h3>
+
+<p>
+Crystal-clear water villas, beaches and unforgettable sunsets.
+</p>
+
+</div>
+
+</article>
+
+<article class="card">
+
+<img src="images/goa.jpg" alt="Goa">
+
+<div class="card-body">
+
+<span class="tag">India</span>
+
+<h3>Goa</h3>
+
+<p>
+Enjoy beaches, nightlife, water sports and delicious seafood.
+</p>
+
+</div>
+
+</article>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<div class="section-head">
+
+<h2>Frequently Asked Questions</h2>
+
+</div>
+
+<div class="faq">
+
+<div class="faq-item">
+
+<button class="faq-question">
+What is included in the tour package?
+</button>
+
+<div class="faq-answer">
+
+<p>
+Accommodation, transportation, sightseeing, breakfast and tour guide services.
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+Can I customize my travel package?
+</button>
+
+<div class="faq-answer">
+
+<p>
+Yes. We offer fully customized holiday packages based on your budget and preferences.
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+Do you provide international visa assistance?
+</button>
+
+<div class="faq-answer">
+
+<p>
+Yes. We assist with visa documentation and application for many destinations.
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+How can I book a tour?
+</button>
+
+<div class="faq-answer">
+
+<p>
+Visit our Book Now page, complete the booking form, and our travel experts will contact you.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+<div class="container">
+
+<p>
+© 2026 WanderNest Travels. Explore More. Travel Better.
+</p>
+
+<div class="social">
+
+<a href="#">Facebook</a>
+<a href="#">Instagram</a>
+<a href="#">YouTube</a>
+
+</div>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
